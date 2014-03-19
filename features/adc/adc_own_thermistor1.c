@@ -11,7 +11,7 @@ void main(void)
     ADC10CTL1 = INCH_10 + ADC10DIV_3;
     // Ref voltage/sample & hold time/
     // reference generator ON/ADC10 ON
-    ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC100N;
+    ADC10CTL0 = SREF_1 + ADC10SHT_3 + REFON + ADC10ON;
 
     while(1) {
         // Sampling and conversion start
