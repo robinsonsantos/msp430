@@ -9,7 +9,7 @@ int main(void)
 
     volatile int i = 0;
 
-    // etop watchdog timer
+    // stop watchdog timer
     WDTCTL = WDTPW + WDTHOLD;
 
     // set P1 to output direction 
